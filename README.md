@@ -13,3 +13,16 @@ Travail d'Étude et de Recherche sur la Reconnaissance des émotions (juin 2008)
 **Réflexion**
 
 > L'idée d'un tel programme soulève bien des questions, à commencer par la capacité d'une quelconque expression à refléter nos émotions. De manière plus pratique, c'est aussi trouver comment l'automate aurait accès aux points du visage nécessaires à l'étude : c'est la question de la reconnaissance de formes. Puis il faut travailler ces points, les classer, leur coller une émotion. Nous avons opté pour une catégorisation qui suit les principes de la logique floue. Il reste encore le plus important : discuter des applications de la reconnaissance des émotions afin de se faire un avis sur le bien fondé des recherches dans le domaine.
+
+### Installation
+
+
+Récupérer les sources
+
+    git clone git@github.com:edouard-lopez/rec-emotions.git
+
+Installer les dépendances
+
+    apt-get install -y python python-imaging-tk python-pmw
+    
+Pour plus de détails (en la méthode Windows) consulter la [section Installation sur le site du projet](http://rec.emotions.free.fr/?p=xp&s=all#s2.4.1).
